@@ -66,5 +66,7 @@ jobs:
               --s3-bucket github-worflows-alex-ostrovsky-01 \
               --s3-key ${{ github.repository }}/${{ github.sha }}.zip \
               --publish
+              
+            
 
               
