@@ -14,7 +14,7 @@ jobs:
       - name: Check-out code
         uses: actions/checkout@v2
       - name: Set-up Python
-        uses: actions/setup-pythin@v2
+        uses: actions/setup-python@v2
         with:
           pythin-version: 3.8
       - name: Install linters
